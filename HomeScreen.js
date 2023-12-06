@@ -10,9 +10,11 @@ const HomeScreen = () => {
       <View style={styles.header}>
         <Image source={require('./assets/logo.jpeg')} style={styles.logo} />
       </View>
+      // FAVOR NÃO MEXER :D !!!!!!!!!!!!
       <TouchableOpacity style={styles.urgentButton}>
         <Text style={styles.buttonText}>Urgência</Text>
       </TouchableOpacity>
+      // FAVOR NÃO MEXER :D !!!!!!!!!!!!
       <TouchableOpacity style={styles.donationButton} onPress={() => navigation.navigate('Donation')}>
         <Text style={styles.buttonText}>Doação</Text>
       </TouchableOpacity>
@@ -29,7 +31,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FEFCED', // Fundo vermelho
+    backgroundColor: '#FEFCED', // Fundo branco
   },
   header: {
     flexDirection: 'row',
@@ -47,7 +49,7 @@ const styles = StyleSheet.create({
     paddingVertical: 25, // Aumentar um pouco o tamanho
     paddingHorizontal: 50, // Aumentar um pouco o tamanho
     borderRadius: 20,
-    marginBottom: 30, // Baixar mais um pouco
+    marginBottom: 30, // margin bottom abaixar os botões
   },
   donationButton: {
     backgroundColor: 'black',
