@@ -16,7 +16,7 @@ const DonationScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Image source={require('./assets/logo.jpeg')} style={styles.logo} />
+        
         <Text style={styles.headerText}>Tela de Doação</Text>
       </View>
       <View style={styles.qrCodeContainer}>
