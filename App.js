@@ -9,6 +9,10 @@ import BurningScreen from './BurningScreen';
 import CutScreen from './CutScreen';
 import DrowningScreen from './DrowningScreen';
 import ChokingScreen from './ChokingScreen';
+import ProcedureScreen from './ProcedureScreen';
+
+
+
 const Stack = createStackNavigator();
 
 const App = () => {
@@ -22,7 +26,7 @@ const App = () => {
         <Stack.Screen name="Cutting" component={CutScreen} />
         <Stack.Screen name="Drown" component={DrowningScreen} />
         <Stack.Screen name="Choke" component={ChokingScreen} />
-
+        <Stack.Screen name="Procedure" component={ProcedureScreen} />
         
       </Stack.Navigator>
     </NavigationContainer>
