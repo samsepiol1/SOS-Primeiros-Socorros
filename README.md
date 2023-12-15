@@ -1,3 +1,6 @@
+<center><h2>SOS - Primeiros Socorros</h2></center>
+<p align="center"><a href="https://elixir.com" target="_blank"><img src="./logo.png"/320px-Official_Elixir_logo.png" width="400" alt="Elixir Logo"></a></p>
+
 # Documentação do Aplicativo SOS Primeiros Socorros
 
 ## Visão Geral
