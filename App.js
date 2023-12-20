@@ -13,6 +13,8 @@ import ProcedureScreen from './ProcedureScreen';
 import Burning_ProcScreen from './Burning_ProcScreen';
 import Burning_ProcScreen2 from './Burning_ProcScreen2';
 import Burning_ProcScreen3 from './Burning_ProcScreen3';
+import GunScreen from './GunScreen';
+import ElectricShockProcScreen from './EletricShockScreen';
 
 
 const Stack = createStackNavigator();
@@ -32,6 +34,8 @@ const App = () => {
         <Stack.Screen name="Burning_Proc" component={Burning_ProcScreen} />
         <Stack.Screen name="Burning_Proc2" component={Burning_ProcScreen2} />
         <Stack.Screen name="Burning_Proc3" component={Burning_ProcScreen3} />
+        <Stack.Screen name="Gun" component={GunScreen} />
+        <Stack.Screen name="EletricShock" component={ElectricShockProcScreen} />
       
         
       </Stack.Navigator>

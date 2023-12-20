@@ -28,25 +28,25 @@ const CutScreen = () => {
         <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page1')}>
+            onPress={() => navigateToAnotherPage('Gun')}>
             <Text style={styles.buttonText}>Armas</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page2')}>
+            onPress={() => navigateToAnotherPage('Knive')}>
             <Text style={styles.buttonText}>Faca Superficial</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page3')}>
+            onPress={() => navigateToAnotherPage('DeepCut')}>
             <Text style={styles.buttonText}>Muito Profundo</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page4')}>
+            onPress={() => navigateToAnotherPage('Deep')}>
             <Text style={styles.buttonText}>Profundo</Text>
           </TouchableOpacity>
         </View>

@@ -40,7 +40,7 @@ const UrgencyScreen = () => {
 
           <TouchableOpacity
             style={styles.imageButton}
-            onPress={() => navigateToAnotherPage('ImagePage2')}>
+            onPress={() => navigateToAnotherPage('EletricShock')}>
             <Image source={require('./assets/choque.png')} style={styles.roundImage} />
             <Text style={styles.imageText}>Choque Elétrico</Text>
           </TouchableOpacity>
