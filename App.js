@@ -10,7 +10,9 @@ import CutScreen from './CutScreen';
 import DrowningScreen from './DrowningScreen';
 import ChokingScreen from './ChokingScreen';
 import ProcedureScreen from './ProcedureScreen';
-
+import Burning_ProcScreen from './Burning_ProcScreen';
+import Burning_ProcScreen2 from './Burning_ProcScreen2';
+import Burning_ProcScreen3 from './Burning_ProcScreen3';
 
 
 const Stack = createStackNavigator();
@@ -27,6 +29,10 @@ const App = () => {
         <Stack.Screen name="Drown" component={DrowningScreen} />
         <Stack.Screen name="Choke" component={ChokingScreen} />
         <Stack.Screen name="Procedure" component={ProcedureScreen} />
+        <Stack.Screen name="Burning_Proc" component={Burning_ProcScreen} />
+        <Stack.Screen name="Burning_Proc2" component={Burning_ProcScreen2} />
+        <Stack.Screen name="Burning_Proc3" component={Burning_ProcScreen3} />
+      
         
       </Stack.Navigator>
     </NavigationContainer>

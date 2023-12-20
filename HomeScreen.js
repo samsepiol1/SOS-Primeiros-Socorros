@@ -1,6 +1,9 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { useTranslation } from 'react-i18next';
+
+
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -18,6 +21,8 @@ const HomeScreen = () => {
       <TouchableOpacity style={styles.donationButton} onPress={() => navigation.navigate('Donation')}>
         <Text style={styles.buttonText}>Doação 💰</Text>
       </TouchableOpacity>
+
+      
       {/* Conteúdo principal aqui */}
       <View style={styles.footer}>
         <Text style={styles.footerText}>Desenvolvido por Kamilla, Jadson e Lucas</Text>
@@ -52,7 +57,7 @@ const styles = StyleSheet.create({
     marginBottom: 30, // Baixar mais um pouco
   },
   donationButton: {
-    backgroundColor: 'green',
+    backgroundColor: 'black',
     paddingVertical: 40, // Aumentar um pouco o tamanho
     paddingHorizontal: 70, // Aumentar um pouco o tamanho
     borderRadius: 30,

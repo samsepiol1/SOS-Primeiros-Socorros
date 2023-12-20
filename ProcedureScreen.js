@@ -22,7 +22,7 @@ const ProcedureScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Text>Procedures of Urgency</Text>
+      <Text>Massagem Cardiaca</Text>
 
       <FlatList
         data={urgencies}

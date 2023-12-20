@@ -28,19 +28,19 @@ const BurningScreen = () => {
         <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page1')}>
+            onPress={() => navigateToAnotherPage('Burning_Proc')}>
             <Text style={styles.buttonText}>Primeiro Grau</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page2')}>
+            onPress={() => navigateToAnotherPage('Burning_Proc2')}>
             <Text style={styles.buttonText}>Segundo Grau</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page3')}>
+            onPress={() => navigateToAnotherPage('Burning_Proc3')}>
             <Text style={styles.buttonText}>Terceiro Grau</Text>
           </TouchableOpacity>
 
