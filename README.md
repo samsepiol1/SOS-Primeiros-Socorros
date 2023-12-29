@@ -3,6 +3,7 @@
 
 # Documentação do Aplicativo SOS Primeiros Socorros
 
+#teste
 ## Visão Geral
 
 O SOS Primeiros Socorros é um aplicativo dedicado a fornecer orientações passo a passo para situações de emergência, permitindo que usuários ajam de maneira eficaz em momentos críticos. Este aplicativo abrange uma variedade de cenários, incluindo cortes, afogamentos, engasgamento, ataque cardíaco, choque elétrico e queimaduras.
