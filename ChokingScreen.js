@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Image, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { Linking } from 'react-native';
 
 const ChokingScreen = () => {
   const navigation = useNavigation();
@@ -28,19 +29,19 @@ const ChokingScreen = () => {
         <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page1')}>
+            onPress={() => navigateToAnotherPage('Child')}>
             <Text style={styles.buttonText}>Crianças e Bebês</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page2')}>
+            onPress={() => navigateToAnotherPage('Victim')}>
             <Text style={styles.buttonText}>Vítima Consciente</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page2')}>
+            onPress={() => navigateToAnotherPage('Adult')}>
             <Text style={styles.buttonText}>Adultos</Text>
           </TouchableOpacity>
         </View>

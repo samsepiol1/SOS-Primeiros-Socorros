@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Image, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { Linking } from 'react-native';
 
 const CutScreen = () => {
   const navigation = useNavigation();
@@ -44,11 +45,6 @@ const CutScreen = () => {
             <Text style={styles.buttonText}>Muito Profundo</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={styles.button}
-            onPress={() => navigateToAnotherPage('Deep')}>
-            <Text style={styles.buttonText}>Profundo</Text>
-          </TouchableOpacity>
         </View>
       </View>
 

@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lucasmatheus.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e02084c2-38f6-49da-9612-9054e30e6202"
+      }
     }
   }
 }

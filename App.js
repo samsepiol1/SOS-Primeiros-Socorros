@@ -15,6 +15,13 @@ import Burning_ProcScreen2 from './Burning_ProcScreen2';
 import Burning_ProcScreen3 from './Burning_ProcScreen3';
 import GunScreen from './GunScreen';
 import ElectricShockProcScreen from './EletricShockScreen';
+import GroundServiceScreen from './GroundServiceScreen'
+import VictimRefusalScreen from './VictimRefusalScreen';
+import SuperficialCutScreen from './SuperficialCutScreen';
+import DeepCutScreen from './DeepCutScreen';
+import ChokingChildScreen from './ChockingChildScreen';
+import ConsciousVictimScreen from './ConsciousVictimScreen';
+import ChokingAdultScreen from './ChockingAdultScreen';
 
 
 const Stack = createStackNavigator();
@@ -36,6 +43,16 @@ const App = () => {
         <Stack.Screen name="Burning_Proc3" component={Burning_ProcScreen3} />
         <Stack.Screen name="Gun" component={GunScreen} />
         <Stack.Screen name="EletricShock" component={ElectricShockProcScreen} />
+        <Stack.Screen name="GroundService" component={GroundServiceScreen} />
+        <Stack.Screen name="VictimRefusal" component={VictimRefusalScreen} />
+        <Stack.Screen name="Knive" component={SuperficialCutScreen} />
+        <Stack.Screen name="DeepCut" component={DeepCutScreen} />
+        <Stack.Screen name="Child" component={ChokingChildScreen} />
+        <Stack.Screen name="Victim" component={ConsciousVictimScreen} />
+        <Stack.Screen name="Adult" component={ChokingAdultScreen} />
+
+
+
       
         
       </Stack.Navigator>

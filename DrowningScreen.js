@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Image, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { Linking } from 'react-native';
 
 const DrowningScreen = () => {
   const navigation = useNavigation();
@@ -28,13 +29,13 @@ const DrowningScreen = () => {
         <View style={styles.buttonContainer}>
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page1')}>
+            onPress={() => navigateToAnotherPage('GroundService')}>
             <Text style={styles.buttonText}>Atendimento em Terra</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={styles.button}
-            onPress={() => navigateToAnotherPage('Page2')}>
+            onPress={() => navigateToAnotherPage('VictimRefusal')}>
             <Text style={styles.buttonText}>Resgate da Vítima</Text>
           </TouchableOpacity>
         </View>

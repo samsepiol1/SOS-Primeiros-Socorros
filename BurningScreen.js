@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Image, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { Linking } from 'react-native';
 
 const BurningScreen = () => {
   const navigation = useNavigation();
@@ -44,11 +45,7 @@ const BurningScreen = () => {
             <Text style={styles.buttonText}>Terceiro Grau</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={styles.button}
-            onPress={() => navigateToAnotherPage('Page4')}>
-            <Text style={styles.buttonText}>Incêndio</Text>
-          </TouchableOpacity>
+       
         </View>
       </View>
 
