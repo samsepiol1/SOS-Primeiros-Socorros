@@ -18,7 +18,8 @@ O SOS Primeiros Socorros é um aplicativo dedicado a fornecer orientações pass
 - Chamada de Emergência Rápida
   - Botão de Chamada de Emergência:
   
-  Os usuários têm a opção de contribuir para causas relacionadas a primeiros socorros por meio de doações, apoiando organizações e iniciativas relevantes.
+  
+  O botão "192" no seu aplicativo serve como uma função de chamada de emergência direta para a SAMU (Serviço de Atendimento Móvel de Urgência). Quando uma pessoa pressiona esse botão, o aplicativo     realiza automaticamente uma ligação para o número de emergência médica, permitindo uma resposta rápida em situações de urgência médica
 
 - Doação
   - Botão de Doação:
@@ -31,9 +32,6 @@ O SOS Primeiros Socorros é um aplicativo dedicado a fornecer orientações pass
 
 Uma interface amigável que permite aos usuários acessar rapidamente as instruções de primeiros socorros desejadas.
 
-- Pesquisa Rápida:
-
-Uma função de pesquisa para encontrar orientações específicas para situações não listadas na página inicial.
 
 # Guia de Instalação e Execução do Projeto SOS Primeiros Socorros
 
